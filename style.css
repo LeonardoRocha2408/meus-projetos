@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #F5E3C3;
+    font-size: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    color: #3E2723;
+}
+
+
+header h2 {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+header h5 {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 5px;
+}
+
+
+footer {
+    background-color: #6F4E37;
+    padding: 20px;
+    position: relative
+    bottom: 0;
+}
+
+footer h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: antiquewhite;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
